@@ -24,9 +24,9 @@ for [Google Summer of Code 2022](https://summerofcode.withgoogle.com/). For more
 
 Improving the speed of problem compilation is a major development goal for CVXPY. As a GSoC project, we will add a thorough benchmark suite to measure improvements, ideally deployed via continuous integration. It should be easy to see the performance changes due to any PR or commit, and to track performance changes over time. 
 
-#### Technical Details
+#### Technical details
 
-#### Helpful (but not Necessary) Experience
+#### Helpful experience
 
 - Familiarity with Python benchmarking
 - Familiarity with cloud infrastructure such as AWS
@@ -46,9 +46,9 @@ Improving the speed of problem compilation is a major development goal for CVXPY
 CVXPY currently supports convex optimization problems and mixed-integer programs. We would like to extend support to (nonconvex) nonlinear problems, 
 such as those solved by [Ipopt](https://coin-or.github.io/Ipopt/) or [Bonmin](https://github.com/coin-or/Bonmin). As a GSoC project, we will add support for nonconvex quadratic objectives and constraints.
 
-#### Technical Details
+#### Technical details
 
-#### Helpful (but not Necessary) Experience
+#### Helpful experience
 
 - Familiarity with convex optimization
 - Familiarity with nonlinear optimization
