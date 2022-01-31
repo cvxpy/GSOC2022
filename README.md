@@ -26,9 +26,9 @@ Improving the speed of problem compilation is a major development goal for CVXPY
 
 #### Technical Details
 
-#### Helpful  (but not Necessary) Experience
+#### Helpful (but not Necessary) Experience
 
-- Familiarity with convex optimization
+- Familiarity with Python benchmarking
 - Familiarity with cloud infrastructure such as AWS
 
 #### Steps
