@@ -22,11 +22,14 @@ for [Google Summer of Code 2022](https://summerofcode.withgoogle.com/). For more
 
 #### Abstract
 
-Improving the speed of problem compilation is a major development goal for CVXPY. We need a thorough benchmark suite to measure improvements, ideally deployed via continuous integration. It should be easy to see the performance changes due to any PR or commit, and to track performance changes over time. 
+Improving the speed of problem compilation is a major development goal for CVXPY. As a GSoC project, we will add a thorough benchmark suite to measure improvements, ideally deployed via continuous integration. It should be easy to see the performance changes due to any PR or commit, and to track performance changes over time. 
 
 #### Technical Details
 
-#### Helpful Experience
+#### Helpful  (but not Necessary) Experience
+
+- Familiarity with convex optimization
+- Familiarity with cloud infrastructure such as AWS
 
 #### Steps
 
@@ -45,7 +48,10 @@ such as those solved by [Ipopt](https://coin-or.github.io/Ipopt/) or [Bonmin](ht
 
 #### Technical Details
 
-#### Helpful Experience
+#### Helpful (but not Necessary) Experience
+
+- Familiarity with convex optimization
+- Familiarity with nonlinear optimization
 
 #### Steps
 
