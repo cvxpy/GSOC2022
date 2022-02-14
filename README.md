@@ -68,7 +68,7 @@ These new tools will dramatically expand CVXPY's usefulness to QI theorists and 
 #### Project mentors and support
 
 You'll be supported by CVXPY's four project maintainers and other active CVXPY contributors.
-For accountability purposes, you can consider Riley Murray and [INSERT HERE] your "main" mentors.
+For accountability purposes, you can consider Riley Murray and Steven Diamond your "main" mentors.
 You can also get support
 from a larger group of people by posting on the Developer channel of the [CVXPY Discord](https://discord.gg/4urRQeGBCr).
 
