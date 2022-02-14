@@ -213,25 +213,3 @@ Here are two suggestions:
    instead of the existing method with second order cone constraints. This would basically resolve
    [CVXPY GitHub Issue #1222](https://github.com/cvxpy/cvxpy/issues/1222).
  
-
-### Support for nonlinear problems \[Medium\]
-
-#### Abstract
-
-CVXPY currently supports convex optimization problems and mixed-integer programs. We would like to extend support to (nonconvex) nonlinear problems, 
-such as those solved by [Ipopt](https://coin-or.github.io/Ipopt/) or [Bonmin](https://github.com/coin-or/Bonmin).
-
-#### Further details
-
-#### Helpful experience
-
-- Familiarity with convex optimization.
-- Familiarity with nonlinear optimization.
-
-#### Steps
-
-**Initial steps**
-
-**Key deliverables**
-
-**Stretch goals**
