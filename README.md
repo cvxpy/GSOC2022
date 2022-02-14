@@ -9,6 +9,8 @@ for [Google Summer of Code 2022](https://summerofcode.withgoogle.com/). For more
 
 - [NumFOCUS's main GSoC page](https://github.com/numfocus/gsoc)
 
+CVXPY has two potential projects for GSoC 2022, described below.
+
 ## Mentors
 
 - [Steven Diamond](https://github.com/SteveDiamond)
@@ -64,13 +66,6 @@ The goal of this project is to update CVXPY with breakthrough mathematical
 methods to enable efficient optimization of quantum entropy, quantum relative entropy,
 and many other important functions in QI.
 These new tools will dramatically expand CVXPY's usefulness to QI theorists and quantum computer engineers.
-
-#### Project mentors and support
-
-You'll be supported by CVXPY's four project maintainers and other active CVXPY contributors.
-For accountability purposes, you can consider Riley Murray and Steven Diamond your "main" mentors.
-You can also get support
-from a larger group of people by posting on the Developer channel of the [CVXPY Discord](https://discord.gg/4urRQeGBCr).
 
 #### Difficulty and requirements
 
