@@ -9,7 +9,8 @@ for [Google Summer of Code 2022](https://summerofcode.withgoogle.com/). For more
 
 - [NumFOCUS's main GSoC page](https://github.com/numfocus/gsoc)
 
-CVXPY has two potential projects for GSoC 2022, described below.
+CVXPY has two potential projects for GSoC 2022. The first project is large (350 hours) and the second is medium (175 hours).
+See below for details!
 
 ## Mentors
 
@@ -20,41 +21,11 @@ All four CVXPY Maintainers are preparred to serve as Mentors for the projects be
 - [Riley Murray](https://github.com/rileyjmurray)
 - [Bartolomeo Stellato](https://github.com/bstellato)
 
-Steven Diamond wrote the description for the first project and Riley Murray wrote the description for the second project.
-
-## Idea 1: Performance benchmarks with continuous integration \[Medium - 175 hours\]
-
-### Abstract
-
-Improving the speed of problem compilation is a major development goal for CVXPY. We need a thorough benchmark suite to measure improvements, ideally deployed via continuous integration (CI). It should be easy to see the performance changes due to any PR or commit, and to track performance changes over time. 
-
-### Further details
-
-A [small benchmark suite](https://github.com/cvxpy/cvxpy/blob/master/cvxpy/tests/test_benchmarks.py) already exists for CVXPY. The suite measures both the time to compile a problem into the solver standard form, and the time spent in the solver. We are focused on the former. The benchmark suite needs to be extended substantially, with a wider range of problems. We are particularly concerned about measuring performance for standard problem formats (e.g., quadratic programs) and measuring how well CVXPY scales to larger problems (>1e5 variables or constraints).
-
-### Helpful experience
-
-- Familiarity with Python benchmarking.
-- Familiarity with CI tools such as Github Actions.
-
-### Steps
-
-**Initial steps**
-
-- Study the [existing benchmark suite](https://github.com/cvxpy/cvxpy/blob/master/cvxpy/tests/test_benchmarks.py).
-- Study tools for benchmarking with CI.
-
-**Expected outcomes**
-
-- An expanded benchmark suite, sufficient to provide confidence that we are accurately measuring changes in performance.
-- Benchmarking CI, or some equivalent system for tracking performance changes across commits.
-
-**Stretch goals**
-
-- Help speed up CVXPY problem compilation.
+Riley Murray wrote the description for the first project and Steven Diamond wrote the description for the second project.
 
 
-## Idea 2: Improve CVXPY's capabilities for quantum information modeling \[Large - 350 hours\]
+
+## Idea 1: Improve CVXPY's capabilities for quantum information modeling \[Large\]
 
 
 ### Abstract
@@ -221,3 +192,33 @@ Here are two suggestions:
    instead of the existing method with second order cone constraints. This would basically resolve
    [CVXPY GitHub Issue #1222](https://github.com/cvxpy/cvxpy/issues/1222).
  
+## Idea 2: Performance benchmarks with continuous integration \[Medium\]
+
+### Abstract
+
+Improving the speed of problem compilation is a major development goal for CVXPY. We need a thorough benchmark suite to measure improvements, ideally deployed via continuous integration (CI). It should be easy to see the performance changes due to any PR or commit, and to track performance changes over time. 
+
+### Further details
+
+A [small benchmark suite](https://github.com/cvxpy/cvxpy/blob/master/cvxpy/tests/test_benchmarks.py) already exists for CVXPY. The suite measures both the time to compile a problem into the solver standard form, and the time spent in the solver. We are focused on the former. The benchmark suite needs to be extended substantially, with a wider range of problems. We are particularly concerned about measuring performance for standard problem formats (e.g., quadratic programs) and measuring how well CVXPY scales to larger problems (>1e5 variables or constraints).
+
+### Helpful experience
+
+- Familiarity with Python benchmarking.
+- Familiarity with CI tools such as Github Actions.
+
+### Steps
+
+**Initial steps**
+
+- Study the [existing benchmark suite](https://github.com/cvxpy/cvxpy/blob/master/cvxpy/tests/test_benchmarks.py).
+- Study tools for benchmarking with CI.
+
+**Expected outcomes**
+
+- An expanded benchmark suite, sufficient to provide confidence that we are accurately measuring changes in performance.
+- Benchmarking CI, or some equivalent system for tracking performance changes across commits.
+
+**Stretch goals**
+
+- Help speed up CVXPY problem compilation.
