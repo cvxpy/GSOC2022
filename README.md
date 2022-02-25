@@ -9,9 +9,6 @@ for [Google Summer of Code 2022](https://summerofcode.withgoogle.com/). For more
 
 - [NumFOCUS's main GSoC page](https://github.com/numfocus/gsoc)
 
-CVXPY has two potential projects for GSoC 2022. The first project is large (350 hours) and the second is medium (175 hours).
-See below for details!
-
 ## Mentors
 
 All four CVXPY Maintainers are preparred to serve as Mentors for the projects below.
@@ -25,8 +22,9 @@ Riley Murray wrote the description for the first project and Steven Diamond wrot
 
 
 
-## Idea 1: Improve CVXPY's capabilities for quantum information modeling \[Large\]
+## Idea 1: Improve CVXPY's capabilities for quantum information modeling
 
+*This is a large (350 hour) project.*
 
 ### Abstract
 
@@ -192,7 +190,9 @@ Here are two suggestions:
    instead of the existing method with second order cone constraints. This would basically resolve
    [CVXPY GitHub Issue #1222](https://github.com/cvxpy/cvxpy/issues/1222).
  
-## Idea 2: Performance benchmarks with continuous integration \[Medium\]
+## Idea 2: Performance benchmarks with continuous integration
+
+*This is a medium (175 hour) project.*
 
 ### Abstract
 
