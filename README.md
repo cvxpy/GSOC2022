@@ -1,6 +1,6 @@
 # GSOC2022
 
-CVXPY is an open source Python-embedded modeling language for convex optimization problems. 
+CVXPY is an open-source Python-embedded modeling language for convex optimization problems. 
 It lets you express your problem in a natural way that follows the math, 
 rather than in the restrictive standard form required by solvers.
 
@@ -18,31 +18,29 @@ CVXPY has two potential projects for GSoC 2022, described below.
 - [Riley Murray](https://github.com/rileyjmurray)
 - [Bartolomeo Stellato](https://github.com/bstellato)
 
-## Ideas
+## Idea 1: Performance benchmarks with continuous integration \[Medium - 175 hours\]
 
-### Performance benchmarks with continuous integration \[Medium - 175 hours\]
-
-#### Abstract
+### Abstract
 
 Improving the speed of problem compilation is a major development goal for CVXPY. We need a thorough benchmark suite to measure improvements, ideally deployed via continuous integration (CI). It should be easy to see the performance changes due to any PR or commit, and to track performance changes over time. 
 
-#### Further details
+### Further details
 
 A [small benchmark suite](https://github.com/cvxpy/cvxpy/blob/master/cvxpy/tests/test_benchmarks.py) already exists for CVXPY. The suite measures both the time to compile a problem into the solver standard form, and the time spent in the solver. We are focused on the former. The benchmark suite needs to be extended substantially, with a wider range of problems. We are particularly concerned about measuring performance for standard problem formats (e.g., quadratic programs) and measuring how well CVXPY scales to larger problems (>1e5 variables or constraints).
 
-#### Helpful experience
+### Helpful experience
 
 - Familiarity with Python benchmarking.
 - Familiarity with CI tools such as Github Actions.
 
-#### Steps
+### Steps
 
 **Initial steps**
 
 - Study the [existing benchmark suite](https://github.com/cvxpy/cvxpy/blob/master/cvxpy/tests/test_benchmarks.py).
 - Study tools for benchmarking with CI.
 
-**Key deliverables**
+**Expected outcomes**
 
 - An expanded benchmark suite, sufficient to provide confidence that we are accurately measuring changes in performance.
 - Benchmarking CI, or some equivalent system for tracking performance changes across commits.
@@ -52,10 +50,10 @@ A [small benchmark suite](https://github.com/cvxpy/cvxpy/blob/master/cvxpy/tests
 - Help speed up CVXPY problem compilation.
 
 
-### Improve CVXPY's capabilities for quantum information modeling \[Large - 350 hours\]
+## Idea 2: Improve CVXPY's capabilities for quantum information modeling \[Large - 350 hours\]
 
 
-#### Abstract
+### Abstract
 
 Convex optimization is an important tool in Quantum Information (QI).
 CVXPY is used in QI-focused Python
@@ -67,7 +65,7 @@ methods to enable efficient optimization of quantum entropy, quantum relative en
 and many other important functions in QI.
 These new tools will dramatically expand CVXPY's usefulness to QI theorists and quantum computer engineers.
 
-#### Difficulty and requirements
+### Difficulty and requirements
 
 This is a very substantial project.
 It'll involve learning about applied linear algebra, optimization, and software development.
@@ -90,6 +88,18 @@ Here are things which would help you succeed in this project (none of them are r
 - *Any* knowledge of QI.
 - *Any* knowledge of basic numerical integration.
 - *Any* knowledge of LaTeX (for mathematical writing).
+
+### Expected Outcomes
+
+We have organized the project into four phases (0, 1, 2, 3) in the Technical Project Roadmap below.
+Completing Phase 1 will put the CVXPY Maintainers in an excellent position to see this project through to the end.
+We are confident that it is possible for a GSoC intern to complete Phase 1 and possibly also Phase 2.
+Phase 3 is very important but can be done in smaller chunks;
+it can be considered a stretch goal for GSoC purposes.
+
+### Technical Project Description and Plans
+
+Below we've provided a lot of information on the project. We don't expect you to read it all in one go! It serves as a reference for the summer and as evidence for the fact that we have a good plan.
 
 #### Technical Abstract
 
@@ -135,7 +145,6 @@ Naturally, you'll eventually need to read parts of FSP2017.
 That paper defines functions including "(scalar) relative entropy," "operator relative entropy,"
 and "the matrix geometric mean."
 You can treat those terms as black-boxes for now.
-
 
 #### Technical Project Roadmap
 
@@ -192,7 +201,7 @@ Phase 3 can be done in much smaller chunks than the other phases, and so can be 
 - Develop new test cases for this functionality.
 - Create example Jupyter Notebooks which show how the new functions can be used.
 
-*Technical remarks*  
+*Other remarks*  
 
 When writing tests for Development Phases 1 through 3, it would be good to consult
 Hamza Fawzi's PhD thesis or other published papers.
