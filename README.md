@@ -20,7 +20,7 @@ CVXPY has two potential projects for GSoC 2022, described below.
 
 ## Ideas
 
-### Performance benchmarks with continuous integration \[Medium\]
+### Performance benchmarks with continuous integration \[Medium - 175 hours\]
 
 #### Abstract
 
@@ -52,7 +52,7 @@ A [small benchmark suite](https://github.com/cvxpy/cvxpy/blob/master/cvxpy/tests
 - Help speed up CVXPY problem compilation.
 
 
-### Improve CVXPY's capabilities for quantum information modeling \[Large\]
+### Improve CVXPY's capabilities for quantum information modeling \[Large - 350 hours\]
 
 
 #### Abstract
