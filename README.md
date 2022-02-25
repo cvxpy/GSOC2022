@@ -13,10 +13,14 @@ CVXPY has two potential projects for GSoC 2022, described below.
 
 ## Mentors
 
+All four CVXPY Maintainers are preparred to serve as Mentors for the projects below.
+
 - [Steven Diamond](https://github.com/SteveDiamond)
 - [Akshay Agrawal](https://github.com/akshayka)
 - [Riley Murray](https://github.com/rileyjmurray)
 - [Bartolomeo Stellato](https://github.com/bstellato)
+
+Steven Diamond wrote the description for the first project and Riley Murray wrote the description for the second project.
 
 ## Idea 1: Performance benchmarks with continuous integration \[Medium - 175 hours\]
 
